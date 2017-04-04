@@ -1,0 +1,42 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bKapacitet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Kapacitet"
+        android:onClick="ocKapacitet"
+        />
+
+    <Button
+        android:id="@+id/bUdaljenost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Udaljenost"
+        android:onClick="ocUdaljenost"/>
+
+    <Button
+        android:id="@+id/bTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Temperatura"
+        android:onClick="ocTemperatura"/>
+
+    <Button
+        android:id="@+id/bTezina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Tezina"
+        android:onClick="ocTezina"/>
+</LinearLayout>
