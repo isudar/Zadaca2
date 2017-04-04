@@ -7,15 +7,55 @@
     tools:context="com.example.sudo.zadaca2.Temperatura"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pretvroba temprature"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_margin="10dp"/>
     <EditText
         android:id="@+id/etUnos"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Unesi temperaturu"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odabir veličine unesene veličine"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="15dp"/>
     <Spinner
-        android:id="@+id/spTemperatura"
+        android:id="@+id/spUlaz"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"></Spinner>
+        android:layout_gravity="center"
+        android:layout_margin="10dp"></Spinner>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odabir veličine unesene veličine"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_margin="15dp" />
+
+    <Spinner
+        android:id="@+id/spIzlaz"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"></Spinner>
+
+    <Button
+        android:id="@+id/bKonvertiraj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konvertiraj"
+        android:textSize="30dp"/>
 </LinearLayout>

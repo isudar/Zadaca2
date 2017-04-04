@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Temperatura">
+        <item>Kelvins</item>
+        <item>Celsius</item>
+        <item>Fahrenheits</item>
+    </string-array>
+    <string-array name="Vrijeme">
+        <item>sec</item>
+        <item>min</item>
+        <item>dan</item>
+    </string-array>
+    <string-array name="Udaljenost">
+        <item>Metar</item>
+        <item>Inch</item>
+        <item>Mile</item>
+    </string-array>
+    <string-array name="Kut">
+        <item>Stupanj</item>
+        <item>Radijan</item>
+    </string-array>
+</resources>

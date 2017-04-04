@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void ocKapacitet(View view) {
-        Intent Startkapacitet = new Intent(this,Kapacitet.class);{
-            this.startActivity(Startkapacitet);
+    public void ocKut(View view) {
+        Intent StartKut = new Intent(this,Kut.class);{
+            this.startActivity(StartKut);
         }
     }
 
@@ -35,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void ocTezina(View view) {
-        Intent StartTezina = new Intent(this,Tezina.class);{
+    public void ocVrijeme(View view) {
+        Intent StartTezina = new Intent(this,Vrijeme.class);{
             this.startActivity(StartTezina);
         }
     }

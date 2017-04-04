@@ -17,10 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".kapacite" />
-        <activity android:name=".Kapacitet" />
+        <activity android:name=".Kut" />
         <activity android:name=".Udaljenost" />
         <activity android:name=".Temperatura" />
-        <activity android:name=".Tezina"></activity>
+        <activity android:name=".Vrijeme"></activity>
     </application>
 
 </manifest>

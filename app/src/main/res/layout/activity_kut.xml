@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sudo.zadaca2.Udaljenost"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.sudo.zadaca2.Kut">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pretvroba udaljenosti"
+        android:text="Pretvroba kuta"
         android:textAlignment="center"
         android:textSize="30dp"
         android:layout_margin="10dp"/>
@@ -19,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:hint="Unesi udaljenost"
+        android:hint="Unesi kut"
         android:textAlignment="center"
         android:textSize="20dp"
         android:layout_margin="10dp"/>
@@ -35,7 +34,8 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="10dp"></Spinner>
+        android:layout_margin="10dp"
+        android:spinnerMode="dropdown"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -46,11 +46,12 @@
         android:layout_margin="15dp" />
 
     <Spinner
-        android:id="@id/spIzlaz"
+        android:id="@+id/spIzlaz"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="30dp"></Spinner>
+        android:layout_margin="30dp"
+        android:spinnerMode="dropdown"/>
 
     <Button
         android:id="@+id/bKonvertiraj"

@@ -12,8 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Kapacitet"
-        android:onClick="ocKapacitet"
+        android:text="Kut"
+        android:onClick="ocKut"
         />
 
     <Button
@@ -37,6 +37,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Tezina"
-        android:onClick="ocTezina"/>
+        android:text="Vrijeme"
+        android:onClick="ocVrijeme"/>
 </LinearLayout>
