@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Zadaca2</string>
+    <string name="Ulaz">Ulazna jedinica:</string>
+    <string name="komentarZaUnos">Unesena vrijednost za konverziju:</string>
+    <string name="JedKonv">Jedinica za konverziju:</string>
+    <string name="Rezultat">Konvertirana vrijednost:</string>
 </resources>

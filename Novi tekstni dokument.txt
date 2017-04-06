@@ -1,0 +1,20 @@
+Zadatak:
+Potrebno je kreirati aplikaciju za konverziju mjernih jedinica. Aplikacija se sastoji
+iz èetiri Activitya. Prvi sadrži gumbe sa slikama koji opisuju o kojem je pretvaranju
+rijeè (npr. Temperatura,Udaljenost...). Klik na gumb eksplicitnim Intentom pokreæe
+Activity za željenu konverziju. U svakom od Activitya za konverziju potrebno je prikupiti
+korisnièki unos vrijednosti, tip jedinice u kojoj je unešeno (koristiti spinner) i izraèunati
+rezultat koji se zatim šalje u Activity namjenjen prikazu rezultata korištenjem extra
+podataka.
+
+Prvi problem s kojim sam se susreo bio je kako koristiti spinner. Rješenje sam pronašao na sljedeæoj poveznici : https://developer.android.com/guide/topics/ui/controls/spinner.html
+i https://www.youtube.com/watch?v=28jA5-mO8K8 
+
+Sve usputne sitnice sam rješavao pomoæu predloška za laboratorijske vježbe. 
+
+Pokušao sam ubaciti deafaultnu opciju ukoliko korisnik  ne unese ništa u polje za unos, nažalost nisam uspio jer se aplikacija svaki put rušila.
+Ovaj problem sam pokušao rješiti pomoæu if petlje na sljedeæi naèin: 
+if(ulaznaVarijabla == null){
+	ulazna varijabla = Double.valueOf(0);
+}
+ali kao što sam naveo aplikacija nije prihvaæala to rješenje.

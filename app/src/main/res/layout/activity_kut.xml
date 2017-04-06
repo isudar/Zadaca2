@@ -21,7 +21,7 @@
         android:hint="Unesi kut"
         android:textAlignment="center"
         android:textSize="20dp"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

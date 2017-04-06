@@ -20,7 +20,8 @@
         <activity android:name=".Kut" />
         <activity android:name=".Udaljenost" />
         <activity android:name=".Temperatura" />
-        <activity android:name=".Vrijeme"></activity>
+        <activity android:name=".Vrijeme" />
+        <activity android:name=".Resultactivity"></activity>
     </application>
 
 </manifest>
