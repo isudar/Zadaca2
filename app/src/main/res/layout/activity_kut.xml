@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pretvroba kuta"
+        android:text="Pretvorba kuta"
         android:textAlignment="center"
         android:textSize="30dp"
         android:layout_margin="10dp"/>

@@ -28,8 +28,6 @@ public class Temperatura extends Activity implements View.OnClickListener {
     public static final String FAHRENHEIT = "Fahrenhajt";
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,9 +68,6 @@ public class Temperatura extends Activity implements View.OnClickListener {
         int izlazVelicina = (int) spIzlaz.getSelectedItemId();
         Intent resultIntent;
 
-        if (ulaznaVarijabla == null){
-            ulaznaVarijabla = Double.valueOf(0);
-        }
         switch (ulazVelicina) {
             case 0:
                 if (izlazVelicina == 0) {
@@ -114,7 +109,7 @@ public class Temperatura extends Activity implements View.OnClickListener {
                     this.startActivity(resultIntent);
                 }
                 if (izlazVelicina == 1) {
-                    ulaznaVarijabla = izlaznaVarijabla;
+                    izlaznaVarijabla = ulaznaVarijabla;
                     resultIntent = new Intent(getApplicationContext(), Resultactivity.class);
                     resultIntent.putExtra(KEY_ULAZ_VAR, CELSIUS);
                     resultIntent.putExtra(KEY_ULAZ, ulaznaVarijabla);
@@ -123,7 +118,7 @@ public class Temperatura extends Activity implements View.OnClickListener {
                     this.startActivity(resultIntent);
                 }
                 if (izlazVelicina == 2) {
-                    ulaznaVarijabla = izlaznaVarijabla * 9 / 5 + 32;
+                    izlaznaVarijabla = ulaznaVarijabla * 9 / 5 + 32;
                     resultIntent = new Intent(getApplicationContext(), Resultactivity.class);
                     resultIntent.putExtra(KEY_ULAZ_VAR, CELSIUS);
                     resultIntent.putExtra(KEY_ULAZ, ulaznaVarijabla);
@@ -134,7 +129,7 @@ public class Temperatura extends Activity implements View.OnClickListener {
                 break;
             case 2:
                 if (izlazVelicina == 0) {
-                    ulaznaVarijabla = (izlaznaVarijabla + 459.67) * 5 / 9;
+                    izlaznaVarijabla = (ulaznaVarijabla + 459.67) * 5 / 9;
                     resultIntent = new Intent(getApplicationContext(), Resultactivity.class);
                     resultIntent.putExtra(KEY_ULAZ_VAR, FAHRENHEIT);
                     resultIntent.putExtra(KEY_ULAZ, ulaznaVarijabla);
@@ -143,7 +138,7 @@ public class Temperatura extends Activity implements View.OnClickListener {
                     this.startActivity(resultIntent);
                 }
                 if (izlazVelicina == 1) {
-                    ulaznaVarijabla = (izlaznaVarijabla - 32) * 5 / 9;
+                    izlaznaVarijabla = (ulaznaVarijabla - 32) * 5 / 9;
                     resultIntent = new Intent(getApplicationContext(), Resultactivity.class);
                     resultIntent.putExtra(KEY_ULAZ_VAR, FAHRENHEIT);
                     resultIntent.putExtra(KEY_ULAZ, ulaznaVarijabla);
@@ -152,7 +147,7 @@ public class Temperatura extends Activity implements View.OnClickListener {
                     this.startActivity(resultIntent);
                 }
                 if (izlazVelicina == 2) {
-                    ulaznaVarijabla = izlaznaVarijabla;
+                    izlaznaVarijabla = ulaznaVarijabla;
                     resultIntent = new Intent(getApplicationContext(), Resultactivity.class);
                     resultIntent.putExtra(KEY_ULAZ_VAR, FAHRENHEIT);
                     resultIntent.putExtra(KEY_ULAZ, ulaznaVarijabla);

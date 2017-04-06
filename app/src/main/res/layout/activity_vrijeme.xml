@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pretvroba vremena"
+        android:text="Pretvorba vremena"
         android:textAlignment="center"
         android:textSize="30dp"
         android:layout_margin="10dp"/>
